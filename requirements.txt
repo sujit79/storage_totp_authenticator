@@ -3,7 +3,6 @@ appdirs==1.4.4
 atomicwrites==1.4.0
 backports.weakref==1.0.post1
 brotlipy==0.7.0
-clyent==1.2.2
 conda-repo-cli==1.0.75
 cssselect==1.1.0
 datashape==0.5.4
