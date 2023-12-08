@@ -9,7 +9,7 @@ It is Python Logic, can be Parameterized, need to import the python class or inv
 
 # Requirements
 
-python -m pip install requests
-python -m pip install hmac
-python -m pip install hashlib
-python -m pip install simplejson
+python -m pip install requests <br/>
+python -m pip install hmac <br/>
+python -m pip install hashlib <br/>
+python -m pip install simplejson <br/>
