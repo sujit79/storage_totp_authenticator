@@ -8,8 +8,9 @@ Integrate a backend with TOTP for Storage, based on HTTPS, TOTP's need to be gen
 It is Python Logic, can be Parameterized, need to import the python class or invoke the main function.
 
 # Requirements
-
-python -m pip install requests <br/>
-python -m pip install hmac <br/>
-python -m pip install hashlib <br/>
-python -m pip install simplejson <br/>
+Either  <br/>
+1. python -m pip install -r requirements.txt <br/>
+2. python -m pip install requests <br/>
+   python -m pip install hmac <br/>
+   python -m pip install hashlib <br/>
+   python -m pip install simplejson <br/>
