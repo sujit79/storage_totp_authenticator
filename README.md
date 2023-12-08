@@ -5,4 +5,4 @@ Storage integrated with Autheticator - Storage based TOTP Authenticator
 Integrate a backend with TOTP for Storage, based on HTTPS, TOTP's need to be generated.
 
 # Usage
-It is Python Logic, can be Parameterized, need to import the python class.
+It is Python Logic, can be Parameterized, need to import the python class or invoke the main function.
