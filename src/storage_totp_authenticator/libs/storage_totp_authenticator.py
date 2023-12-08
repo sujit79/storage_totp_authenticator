@@ -49,7 +49,7 @@ def TOTP(K, digits=10, timeref = 0, timestep = 30):
 #}
 # A Note url is required for what is being published, but others are what the user wants to persist.
 
-def post_data(shared_secret, timestep, root, userid, passwd, data):
+def post_data(shared_secret, root, userid, passwd, data):
     passwd = TOTP(shared_secret, 10, T0, timestep).zfill(10) 
     resp = requests.post(root, auth=HTTPBasicAuth(userid, passwd), data=json.dumps(data))
     print(resp.json())

@@ -36,7 +36,7 @@ long_description = '{}\n{}'.format(
 
 setup(
     name='storage-top-authenticator',
-    version='beta-v1',
+    version='0.1',
     description='storage authenticator',
     long_description=long_description,
     long_description_content_type='text/x-rst',
